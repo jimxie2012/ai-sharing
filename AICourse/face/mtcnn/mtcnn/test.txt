@@ -1,0 +1,5 @@
+model = LinearRegression()
+model.fit(train_x,train_y)
+score = model.score(test_x, test_y)
+print('测试分数:',score)
+~
